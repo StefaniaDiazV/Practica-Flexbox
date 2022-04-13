@@ -1,0 +1,43 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+.pantalla{
+    display: flex;
+    height: 635px;
+    flex-direction: row-reverse;
+}
+.right{
+    display: flex;
+    flex-direction:column;
+}
+
+.left{
+    display: flex;
+    background-color: rgb(250, 168, 67);
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    background-color: rgb(248, 205, 152);
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(153, 190, 96);
+    align-items: center;
+    justify-content: center;
+}
